@@ -1,12 +1,7 @@
-from http.client import LineTooLong
 import sys
-
-
-
 
 class linker:
     def __init__(self, args):
-        print(args)
         self.file = args[0]
         self.output = ""
         self.coms = {"include": self.include}
@@ -17,7 +12,6 @@ class linker:
         lines =[]
         with open(self.file) as f:
             lines = f.readlines()
-            print(lines)
         for line in lines:
             lin = line.split("//")
             if len(lin) >= 2:
