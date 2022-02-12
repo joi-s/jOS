@@ -1,0 +1,3 @@
+echo "gcc -nostdinc -nostdlib -ffreestanding -c $1 -o $2" >> temp.txt
+cat build >> temp.txt
+mv temp.txt build
