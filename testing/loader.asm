@@ -1,6 +1,15 @@
 .text
 
 
+boot:
+  cli		; no interrupts
+	xor ax, ax	; zero out
+	mov ds, ax
+	mov es, ax
+	mov ss, ax
+	
+	jmp main
+
 
 
 
