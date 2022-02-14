@@ -1,9 +1,10 @@
 .text
-.code16gcc
 
-.globl kernalload
-push %cs
-pop %ax
-movw %ax, %ds
-movw %ax, %es
-movw %ax
+
+
+
+
+
+
+times 510-($-$$) db 0	
+dw 0xaa55		; mark as bootable
