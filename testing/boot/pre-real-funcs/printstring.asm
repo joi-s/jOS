@@ -19,6 +19,7 @@
   inc bx
   mov ax, [bx]
   cmp ax, '$'
+  jne .loop
   
   ; bring back reg
   pop ax
