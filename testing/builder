@@ -1,4 +1,0 @@
-cd boot
-nasm -elf -o boot.bin boot.asm
-
-kvm -fda os.bin
