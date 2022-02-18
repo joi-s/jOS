@@ -7,3 +7,5 @@ also its janky af
 > 
 > bash builder
 ## windows build
+why the f would you ever use windows
+>(aka its not done yet)
