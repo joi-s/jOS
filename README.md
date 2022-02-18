@@ -4,5 +4,6 @@ also its jany af
 
 ## linux build
 cd into test
-run the command > bash builder
+run the command 
+> bash builder
 ## windows build
