@@ -3,6 +3,7 @@ An OS that im making for fun (its experienced a little bit of a lot of feature c
 also its jany af
 
 ## linux build
-> cd fizbuzOS/testing/ /n
+> cd fizbuzOS/testing/
+> 
 > bash builder
 ## windows build
