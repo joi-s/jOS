@@ -1,6 +1,0 @@
-#gcc -nostdinc -nostdlib -ffreestanding -c  -o
-cd boot
-nasm -f bin -o boot.bin boot.asm
-
-
-kvm -fda boot.bin
