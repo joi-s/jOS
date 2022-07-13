@@ -1,0 +1,16 @@
+#build allllllll the c files
+nasm kernal/kernalentry.asm -f elf -o kernal/kernalentry.o
+
+#compile
+gcc -m32 -fno-pie -ffreestanding -o kernal/kernal.o -c kernal/kernal.c
+a=kernal/kernalentry.o
+b=kernal/kernal.o
+
+
+
+
+#link
+ld -m elf_i386 -o kernal/kernal.bin -Ttext 0x1000 $a $b --oformat binary
+
+rm $a
+rm $b
