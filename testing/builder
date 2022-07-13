@@ -1,5 +1,0 @@
-nasm -f elf64 -o boot.bin boot/boot.asm
-gcc -nostdinc -nostdlib -ffreestanding -c c/kmain.c -o ker.o
-
-ld --oformat binary boot.bin ker.o -o os.run -T linker.ld 
-kvm -fda os.run
