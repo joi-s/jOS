@@ -3,6 +3,6 @@ An OS that im making for fun (its experienced a little bit of a lot of feature c
 also its janky af
 
 ## linux build and run 
-> ./build
+> **./build**
 ## windows build
->(its not done yet)
+> **(its not done yet)**
